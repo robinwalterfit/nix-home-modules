@@ -38,6 +38,7 @@
           ripgrep-base = ./nix/modules/ripgrep-base.nix;
           starship-base = ./nix/modules/starship-base.nix;
           wezterm-base = ./nix/modules/wezterm-base.nix;
+          zed-base = ./nix/modules/zed-base.nix;
           zsh-base = ./nix/modules/zsh-base.nix;
         };
       in
