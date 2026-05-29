@@ -22,6 +22,7 @@
           fastfetch-base = ./nix/modules/fastfetch-base.nix;
           fd-base = ./nix/modules/fd-base.nix;
           git-base = ./nix/modules/git-base.nix;
+          helix-base = ./nix/modules/helix-base.nix;
           nushell-base = ./nix/modules/nushell-base.nix;
           starship-base = ./nix/modules/starship-base.nix;
           zsh-base = ./nix/modules/zsh-base.nix;
