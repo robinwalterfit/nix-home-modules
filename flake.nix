@@ -18,6 +18,7 @@
 
         homeModules = {
           direnv-base = ./nix/modules/direnv-base.nix;
+          nushell-base = ./nix/modules/nushell-base.nix;
         };
       in
       {
