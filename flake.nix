@@ -37,7 +37,7 @@
             module =
               { ... }:
               {
-                imports = [ ];
+                imports = [ ./nix/dev/flake-module.nix ];
               };
           };
         };
