@@ -25,6 +25,7 @@
           helix-base = ./nix/modules/helix-base.nix;
           htop-base = ./nix/modules/htop-base.nix;
           lazydocker-base = ./nix/modules/lazydocker-base.nix;
+          micro-base = ./nix/modules/micro-base.nix;
           nushell-base = ./nix/modules/nushell-base.nix;
           starship-base = ./nix/modules/starship-base.nix;
           zsh-base = ./nix/modules/zsh-base.nix;
