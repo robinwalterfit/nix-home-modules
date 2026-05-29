@@ -17,6 +17,7 @@
         lib = import ./nix/lib.nix { inherit self; };
 
         homeModules = {
+          broot-base = ./nix/modules/broot-base.nix;
           colima-base = ./nix/modules/colima-base.nix;
           direnv-base = ./nix/modules/direnv-base.nix;
           eza-base = ./nix/modules/eza-base.nix;
