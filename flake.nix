@@ -20,6 +20,7 @@
           direnv-base = ./nix/modules/direnv-base.nix;
           eza-base = ./nix/modules/eza-base.nix;
           fastfetch-base = ./nix/modules/fastfetch-base.nix;
+          git-base = ./nix/modules/git-base.nix;
           nushell-base = ./nix/modules/nushell-base.nix;
           starship-base = ./nix/modules/starship-base.nix;
           zsh-base = ./nix/modules/zsh-base.nix;
