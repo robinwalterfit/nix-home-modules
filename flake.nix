@@ -32,6 +32,7 @@
           micro-base = ./nix/modules/micro-base.nix;
           nix-index-base = ./nix/modules/nix-index-base.nix;
           nushell-base = ./nix/modules/nushell-base.nix;
+          pandoc-base = ./nix/modules/pandoc-base.nix;
           starship-base = ./nix/modules/starship-base.nix;
           zsh-base = ./nix/modules/zsh-base.nix;
         };
