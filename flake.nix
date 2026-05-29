@@ -19,6 +19,7 @@
         homeModules = {
           direnv-base = ./nix/modules/direnv-base.nix;
           nushell-base = ./nix/modules/nushell-base.nix;
+          starship-base = ./nix/modules/starship-base.nix;
           zsh-base = ./nix/modules/zsh-base.nix;
         };
       in
