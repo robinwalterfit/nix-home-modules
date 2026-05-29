@@ -16,7 +16,9 @@
       let
         lib = import ./nix/lib.nix { inherit self; };
 
-        homeModules = { };
+        homeModules = {
+          direnv-base = ./nix/modules/direnv-base.nix;
+        };
       in
       {
         systems = [ ];
