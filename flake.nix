@@ -34,6 +34,7 @@
           nushell-base = ./nix/modules/nushell-base.nix;
           pandoc-base = ./nix/modules/pandoc-base.nix;
           rclone-base = ./nix/modules/rclone-base.nix;
+          ripgrep-base = ./nix/modules/ripgrep-base.nix;
           starship-base = ./nix/modules/starship-base.nix;
           zsh-base = ./nix/modules/zsh-base.nix;
         };
