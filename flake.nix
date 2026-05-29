@@ -17,6 +17,7 @@
         lib = import ./nix/lib.nix { inherit self; };
 
         homeModules = {
+          bat-base = ./nix/modules/bat-base.nix;
           bottom-base = ./nix/modules/bottom-base.nix;
           broot-base = ./nix/modules/broot-base.nix;
           colima-base = ./nix/modules/colima-base.nix;
