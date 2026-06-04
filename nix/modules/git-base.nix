@@ -14,16 +14,7 @@
     };
 
     settings = {
-      core = {
-        autocrlf = "input";
-        pager = "delta";
-      };
-      delta = {
-        light = false; # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
-        line-numbers = true;
-        navigate = true; # use n and N to move between diff sections
-        side-by-side = true;
-      };
+      core.autocrlf = "input";
       diff = {
         colorMoved = "default";
       };
@@ -38,11 +29,8 @@
       init = {
         defaultBranch = "main";
       };
-      interactive = {
-        diffFilter = "delta --color-only";
-      };
       merge = {
-        conflictstyle = "diff3";
+        conflictstyle = "zdiff3";
       };
       pull = {
         rebase = true;
