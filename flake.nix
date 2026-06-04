@@ -21,6 +21,7 @@
           bottom-base = ./nix/modules/bottom-base.nix;
           broot-base = ./nix/modules/broot-base.nix;
           colima-base = ./nix/modules/colima-base.nix;
+          delta-base = ./nix/modules/delta-base.nix;
           direnv-base = ./nix/modules/direnv-base.nix;
           eza-base = ./nix/modules/eza-base.nix;
           fastfetch-base = ./nix/modules/fastfetch-base.nix;
