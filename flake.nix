@@ -30,6 +30,7 @@
           helix-base = ./nix/modules/helix-base.nix;
           htop-base = ./nix/modules/htop-base.nix;
           lazydocker-base = ./nix/modules/lazydocker-base.nix;
+          lix = ./nix/modules/lix.nix;
           micro-base = ./nix/modules/micro-base.nix;
           nix-index-base = ./nix/modules/nix-index-base.nix;
           nushell-base = ./nix/modules/nushell-base.nix;
