@@ -60,11 +60,7 @@
         partitions = {
           dev = {
             extraInputsFlake = ./nix/dev;
-            module =
-              { ... }:
-              {
-                imports = [ ./nix/dev/flake-module.nix ];
-              };
+            module = { ... }: { imports = [ ./nix/dev/flake-module.nix ]; };
           };
         };
 
