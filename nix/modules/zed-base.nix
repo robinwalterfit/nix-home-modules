@@ -1,8 +1,7 @@
 # SPDX-FileCopyrightText: 2026 Robin Walter <hello@robinwalter.me>
 # SPDX-License-Identifier: MIT
 #
-{ pkgs, ... }:
-{
+{ pkgs, ... }: {
   programs.zed-editor = {
     enable = true;
 
@@ -24,11 +23,25 @@
 
     # Additional packages that shall be available to Zed
     extraPackages = with pkgs; [
+      basedpyright
       bash-language-server
       biome
+      just
+      just-lsp
       nil
       nixd
       nixfmt
+      nodejs
+      package-version-server
+      python314
+      python3Packages.python-lsp-server
+      python3Packages.python-lsp-ruff
+      ruff
+      rust-analyzer
+      ty
+      uv
+      vtsls
+      yaml-language-server
     ];
 
     # Default user configuration
