@@ -2,8 +2,7 @@
 # SPDX-License-Identifier: MIT
 #
 # Meta information
-{ self, ... }:
-{
+{ self, ... }: {
   projectName = "nix-home-modules";
 
   # Use (short) git revision hash or dirty, if there are uncommitted changes
