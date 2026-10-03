@@ -58,9 +58,6 @@
         use_modifier_to_send = true;
       };
       always_treat_brackets_as_autoclosed = true;
-      audio = {
-        "experimental.auto_microphone_volume" = true;
-      };
       auto_install_extensions = { };
       auto_update = false;
       autosave = {
@@ -69,10 +66,10 @@
         };
       };
       autoscroll_on_clicks = false;
-      base_keymap = "VSCode";
+      base_keymap = "Zed";
       buffer_font_fallbacks = [
         "Fira Code"
-        ".ZedMono"
+        "ZedMono Nerd Font Mono"
         "Menlo"
         "Monaco"
         "Courier New"
@@ -494,7 +491,6 @@
         default_width = 300.0;
         dock = "left";
         file_icons = true;
-        folder_icons = true;
         git_status = true;
         indent_guides = {
           show = "always";
@@ -522,7 +518,6 @@
         dock = "left";
         entry_spacing = "comfortable";
         file_icons = true;
-        folder_icons = true;
         git_status = true;
         hide_gitignore = false;
         indent_guides = {
