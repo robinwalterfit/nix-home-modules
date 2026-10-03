@@ -205,8 +205,10 @@ in
 
     (mkIf (cfg.runOnShellInit && config.programs.zsh.enable) {
       robinwalterfit.nix-home-modules.zsh.initExtraLast = ''
-        # Run fastfetch only in interactive shells
-        if [[ $- == *i* ]] && [[ -z "$FASTFETCH_SHOWN" ]]; then
+        # Run fastfetch only in user-facing interactive shells
+        # 
+        # Some automation starts zsh with -i -c and may allocate a pseudo-TTY.
+        if [[ -o interactive ]] && [[ -t 0 ]] && [[ -t 1 ]] && [[ -z "$ZSH_EXECUTION_STRING" ]] && [[ -z "''${FASTFETCH_SHOWN:-}" ]]; then
           export FASTFETCH_SHOWN=1
           ${fastfetchCmd}
         fi
