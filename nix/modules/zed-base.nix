@@ -26,8 +26,14 @@
       basedpyright
       bash-language-server
       biome
+      fira-code
       just
       just-lsp
+      nerd-fonts.fira-code
+      nerd-fonts.fira-mono
+      nerd-fonts.hack
+      nerd-fonts.meslo-lg
+      nerd-fonts.zed-mono
       nil
       nixd
       nixfmt
@@ -589,7 +595,7 @@
         };
         dock = "bottom";
         env = { };
-        font_family = "MesloLGS Nerd Font Mono";
+        font_family = "MesloLGL Nerd Font Mono";
         font_features = {
           calt = false;
         };
@@ -619,7 +625,7 @@
       ui_font_fallbacks = [
         "Fira Code"
         "FiraCode Nerd Font"
-        "MesloLGS Nerd Font"
+        "MesloLGL Nerd Font"
       ];
       ui_font_family = ".ZedSans";
       ui_font_features = {
